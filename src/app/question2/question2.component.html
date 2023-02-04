@@ -1,0 +1,12 @@
+<div>
+    <p StyleDirective >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi odio ipsum, autem quod odit asperiores.</p>
+    <button StyleDirective>Click here</button>
+</div>
+
+<div  style="margin:1rem 0rem;">Price : {{price|currency:"EGP"}}</div>
+<div >{{date|date:"short"}}</div>
+<img [src]="img | defaultImgURL">
+
+
+<div >Number of wanted Items = {{ arr_of_products | filter:arr_of_wanted_products}}</div>
+
